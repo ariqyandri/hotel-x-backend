@@ -39,6 +39,10 @@ module.exports = {
       note: {
         type: Sequelize.TEXT,
       },
+      totalEuro: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
