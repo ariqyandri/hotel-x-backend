@@ -14,6 +14,10 @@ module.exports = (sequelize, DataTypes) => {
         through: "reservedRooms",
         foreignKey: "roomId",
       });
+      room.belongsToMany(models.facility, {
+        through: "roomFacility",
+        foreignKey: "roomId",
+      });
     }
   }
   room.init(
