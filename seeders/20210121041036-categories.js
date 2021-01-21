@@ -6,6 +6,7 @@ module.exports = {
       "categories",
       [
         {
+          id: 1,
           name: "Rooms",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed.",
@@ -15,6 +16,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          id: 2,
           name: "Facilities",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. ",
@@ -24,6 +26,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          id: 3,
           name: "Attractions",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. ",
@@ -33,6 +36,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          id: 4,
           name: "About",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. ",
@@ -42,6 +46,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          id: 5,
           name: "Contact",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. ",

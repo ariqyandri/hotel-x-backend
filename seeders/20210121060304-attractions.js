@@ -3,75 +3,58 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.bulkInsert(
-      "rooms",
+      "attractions",
       [
         {
           id: 1,
-          name: "Room A",
-          persons: 2,
+          name: "Stedelijk Museum Amsterdam",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. Vestibulum aliquet mauris nisi, vel tincidunt leo tempus a. Quisque ultrices vitae tellus ac dignissim. Donec a odio ornare, blandit metus ut, fringilla eros. ",
+          address: "Museumplein 10, 1071 DJ Amsterdam",
+          linkUrl: "https://www.stedelijk.nl/",
           imageUrl:
-            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/1-star-411-1030x678.jpg",
-          priceEuro: 55,
-          available: 6,
-          categoryId: 1,
+            "https://media-exp1.licdn.com/dms/image/C4D1BAQHWnREIm3dmyA/company-background_10000/0/1557417206664?e=1611298800&v=beta&t=9w7FI9GHgS-rjSYfAB6sKWO_9QlBEpRYT97fA0cY3p4",
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
           id: 2,
-          name: "Room B",
-          persons: 2,
+          name: "Rijksmuseum",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. Vestibulum aliquet mauris nisi, vel tincidunt leo tempus a. Quisque ultrices vitae tellus ac dignissim. Donec a odio ornare, blandit metus ut, fringilla eros. ",
+          address: "Museumstraat 1, 1071 XX Amsterdam",
+          linkUrl: "https://www.rijksmuseum.nl/",
           imageUrl:
-            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/2-star-504-1030x678.jpg",
-          priceEuro: 75,
-          available: 4,
-          categoryId: 1,
+            "http://petrahulst.com/wp-content/uploads/2016/09/Rijksmuseum-nacht-009.jpg",
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          id:3,
-          name: "Room C",
-          persons: 4,
+          id: 3,
+          name: "The Concertgebouw",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. Vestibulum aliquet mauris nisi, vel tincidunt leo tempus a. Quisque ultrices vitae tellus ac dignissim. Donec a odio ornare, blandit metus ut, fringilla eros. ",
+          address: "Concertgebouwplein 10, 1071 LN Amsterdam",
+          linkUrl: "http://www.concertgebouw.nl/",
           imageUrl:
-            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/3-star-118-1030x678.jpg",
-          priceEuro: 100,
-          available: 4,
-          categoryId: 1,
+            "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_763/v1611210978/Royal-Concertgebouw_Amsterdam_Grote-Zaal-Hans-Samsom_mqf4mp.jpg",
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
+
         {
-          id:4,
-          name: "Room D",
-          persons: 4,
+          id: 4,
+          name: "Café Martinot",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. Vestibulum aliquet mauris nisi, vel tincidunt leo tempus a. Quisque ultrices vitae tellus ac dignissim. Donec a odio ornare, blandit metus ut, fringilla eros. ",
+          address: "CMoreelsestraat 3, 1071 BJ Amsterdam",
+          linkUrl: "https://cafemartinot.nl/",
           imageUrl:
-            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/Lloyd-Hotel-510-1030x686.jpg",
-          priceEuro: 120,
-          available: 2,
-          categoryId: 1,
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          id:5,
-          name: "Rooms E",
-          persons: 6,
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. Vestibulum aliquet mauris nisi, vel tincidunt leo tempus a. Quisque ultrices vitae tellus ac dignissim. Donec a odio ornare, blandit metus ut, fringilla eros. ",
-          imageUrl:
-            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/Lloyd-Hotel-Room-222.jpg",
-          priceEuro: 150,
-          available: 1,
-          categoryId: 1,
+            "https://media-cdn.tripadvisor.com/media/photo-s/13/b5/24/ea/food-is-our-best-friend.jpg",
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -81,6 +64,6 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.bulkDelete("rooms", null, {});
+    await queryInterface.bulkDelete("attractions", null, {});
   },
 };
