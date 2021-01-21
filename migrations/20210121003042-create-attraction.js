@@ -17,9 +17,6 @@ module.exports = {
       address: {
         type: Sequelize.STRING,
       },
-      isPublic: {
-        type: Sequelize.BOOLEAN,
-      },
       linkUrl: {
         type: Sequelize.STRING,
       },
