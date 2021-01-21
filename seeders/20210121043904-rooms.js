@@ -26,7 +26,7 @@ module.exports = {
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. Vestibulum aliquet mauris nisi, vel tincidunt leo tempus a. Quisque ultrices vitae tellus ac dignissim. Donec a odio ornare, blandit metus ut, fringilla eros. ",
           imageUrl:
-            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/2-star-504-1030x678.jpg",
+            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/Lloyd-Hotel-604.jpg",
           priceEuro: 75,
           available: 4,
           categoryId: 1,
@@ -34,7 +34,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id:3,
+          id: 3,
           name: "Room C",
           persons: 4,
           description:
@@ -48,7 +48,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id:4,
+          id: 4,
           name: "Room D",
           persons: 4,
           description:
@@ -62,7 +62,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id:5,
+          id: 5,
           name: "Rooms E",
           persons: 6,
           description:
