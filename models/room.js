@@ -8,7 +8,16 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
+      room.belongsTo(models.category);
+      room.hasMany(models.picture);
+      room.belongsToMany(models.reservation, {
+        through: "reservedRooms",
+        foreignKey: "roomId",
+      });
+      room.belongsToMany(models.facility, {
+        through: "roomFacility",
+        foreignKey: "roomId",
+      });
     }
   }
   room.init(
