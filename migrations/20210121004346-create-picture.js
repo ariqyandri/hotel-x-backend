@@ -23,6 +23,9 @@ module.exports = {
       thumbnailUrl: {
         type: Sequelize.STRING,
       },
+      referenceId: {
+        type: Sequelize.INTEGER,
+      },
       categoryId: {
         type: Sequelize.INTEGER,
         references: [
