@@ -9,14 +9,13 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       about.belongsTo(models.category);
-      about.hasMany(models.picture);
     }
   }
   about.init(
     {
       title: DataTypes.STRING,
       description: DataTypes.TEXT,
-      thumbnailUrl: DataTypes.STRING,
+      imageUrl: DataTypes.STRING,
       categoryId: DataTypes.INTEGER,
     },
     {

@@ -14,13 +14,13 @@ module.exports = {
       description: {
         type: Sequelize.TEXT,
       },
-      iconUrl: {
-        type: Sequelize.STRING,
-      },
       isPublic: {
         type: Sequelize.BOOLEAN,
       },
-      thumbnailUrl: {
+      iconUrl: {
+        type: Sequelize.STRING,
+      },
+      imageUrl: {
         type: Sequelize.STRING,
       },
       categoryId: {

@@ -17,16 +17,13 @@ module.exports = {
       description: {
         type: Sequelize.TEXT,
       },
-      description: {
-        type: Sequelize.TEXT,
-      },
       priceEuro: {
         type: Sequelize.INTEGER,
       },
       available: {
         type: Sequelize.INTEGER,
       },
-      thumbnailUrl: {
+      imageUrl: {
         type: Sequelize.STRING,
       },
       categoryId: {

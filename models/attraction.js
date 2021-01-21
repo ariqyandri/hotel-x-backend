@@ -9,7 +9,6 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       attraction.belongsTo(models.category);
-      attraction.hasMany(models.picture);
     }
   }
   attraction.init(
@@ -17,9 +16,8 @@ module.exports = (sequelize, DataTypes) => {
       name: DataTypes.STRING,
       description: DataTypes.TEXT,
       address: DataTypes.STRING,
-      isPublic: DataTypes.BOOLEAN,
       linkUrl: DataTypes.STRING,
-      thumbnailUrl: DataTypes.STRING,
+      imageUrl: DataTypes.STRING,
       categoryId: DataTypes.INTEGER,
     },
     {

@@ -13,14 +13,13 @@ module.exports = (sequelize, DataTypes) => {
       category.hasMany(models.attraction);
       category.hasMany(models.about);
       category.hasMany(models.contact);
-      category.hasMany(models.picture);
     }
   }
   category.init(
     {
       name: DataTypes.STRING,
       description: DataTypes.TEXT,
-      thumbnailUrl: DataTypes.STRING,
+      imageUrl: DataTypes.STRING,
     },
     {
       sequelize,

@@ -24,6 +24,7 @@ module.exports = (sequelize, DataTypes) => {
       email: { type: DataTypes.STRING, allowNull: false },
       phone: { type: DataTypes.STRING, allowNull: false },
       note: DataTypes.TEXT,
+      totalEuro: { type: DataTypes.INTEGER, allowNull: false },
     },
     {
       sequelize,

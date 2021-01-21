@@ -1,30 +1,27 @@
 "use strict";
 const { Model } = require("sequelize");
 module.exports = (sequelize, DataTypes) => {
-  class contact extends Model {
+  class roomImage extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      contact.belongsTo(models.category);
+      roomImage.belongsTo(models.room);
     }
   }
-  contact.init(
+  roomImage.init(
     {
-      platform: DataTypes.STRING,
-      info: DataTypes.STRING,
-      description: DataTypes.TEXT,
-      linkUrl: DataTypes.STRING,
-      iconUrl: DataTypes.STRING,
-      imageUrl: DataTypes.STRING,
-      categoryId: DataTypes.INTEGER,
+      title: DataTypes.STRING,
+      caption: DataTypes.TEXT,
+      url: DataTypes.STRING,
+      roomId: DataTypes.INTEGER,
     },
     {
       sequelize,
-      modelName: "contact",
+      modelName: "roomImage",
     }
   );
-  return contact;
+  return roomImage;
 };

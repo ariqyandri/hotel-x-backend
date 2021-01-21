@@ -1,35 +1,26 @@
 "use strict";
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable("contacts", {
+    await queryInterface.createTable("roomImages", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      platform: {
+      title: {
         type: Sequelize.STRING,
       },
-      info: {
-        type: Sequelize.STRING,
-      },
-      description: {
+      caption: {
         type: Sequelize.TEXT,
       },
-      linkUrl: {
+      url: {
         type: Sequelize.STRING,
       },
-      iconUrl: {
-        type: Sequelize.STRING,
-      },
-      imageUrl: {
-        type: Sequelize.STRING,
-      },
-      categoryId: {
+      roomId: {
         type: Sequelize.INTEGER,
         references: {
-          model: "categories",
+          model: "rooms",
           key: "id",
         },
         onUpdate: "CASCADE",
@@ -46,6 +37,6 @@ module.exports = {
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable("contacts");
+    await queryInterface.dropTable("roomImages");
   },
 };

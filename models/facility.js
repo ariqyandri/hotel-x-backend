@@ -9,7 +9,6 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       facility.belongsTo(models.category);
-      facility.hasMany(models.picture);
       facility.belongsToMany(models.room, {
         through: "roomFacility",
         foreignKey: "facilityId",
@@ -20,9 +19,9 @@ module.exports = (sequelize, DataTypes) => {
     {
       name: DataTypes.STRING,
       description: DataTypes.TEXT,
-      iconUrl: DataTypes.STRING,
       isPublic: DataTypes.BOOLEAN,
-      thumbnailUrl: DataTypes.STRING,
+      iconUrl: DataTypes.STRING,
+      imageUrl: DataTypes.STRING,
       categoryId: DataTypes.INTEGER,
     },
     {
