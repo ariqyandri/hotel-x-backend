@@ -6,7 +6,6 @@ module.exports = {
       "abouts",
       [
         {
-          id: 1,
           name: "Hotel X",
           slogan: "Quality X Comfort X Value",
           description:
@@ -16,7 +15,7 @@ module.exports = {
           email: "info@hotelx.com",
           imageUrl:
             "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/Lloyd-Hotel-Exterior-1-1030x687.jpg",
-          categoryId: 3,
+          categoryId: 4,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
