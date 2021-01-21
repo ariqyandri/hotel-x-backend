@@ -25,6 +25,30 @@ module.exports = {
       },
       referenceId: {
         type: Sequelize.INTEGER,
+        references: [
+          {
+            model: "rooms",
+            key: "id",
+          },
+          {
+            model: "facilities",
+            key: "id",
+          },
+          {
+            model: "attractions",
+            key: "id",
+          },
+          {
+            model: "abouts",
+            key: "id",
+          },
+          {
+            model: "contacts",
+            key: "id",
+          },
+        ],
+        onUpdate: "CASCADE",
+        onDelete: "SET NULL",
       },
       categoryId: {
         type: Sequelize.INTEGER,
