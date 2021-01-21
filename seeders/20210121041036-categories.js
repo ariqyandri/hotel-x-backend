@@ -17,6 +17,16 @@ module.exports = {
         },
         {
           id: 2,
+          name: "Reservation",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. ",
+          imageUrl:
+            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/Lloyd-Hotel-607.jpg",
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          id: 3,
           name: "Facilities",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. ",
@@ -26,7 +36,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 3,
+          id: 4,
           name: "Attractions",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. ",
@@ -36,7 +46,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 4,
+          id: 5,
           name: "About",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. ",
@@ -46,7 +56,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 5,
+          id: 6,
           name: "Contact",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. ",
