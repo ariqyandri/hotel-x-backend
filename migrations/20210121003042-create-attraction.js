@@ -23,7 +23,7 @@ module.exports = {
       linkUrl: {
         type: Sequelize.STRING,
       },
-      thumbnailUrl: {
+      imageUrl: {
         type: Sequelize.STRING,
       },
       categoryId: {

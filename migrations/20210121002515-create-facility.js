@@ -20,7 +20,7 @@ module.exports = {
       isPublic: {
         type: Sequelize.BOOLEAN,
       },
-      thumbnailUrl: {
+      imageUrl: {
         type: Sequelize.STRING,
       },
       categoryId: {

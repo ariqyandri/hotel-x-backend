@@ -26,7 +26,7 @@ module.exports = {
       available: {
         type: Sequelize.INTEGER,
       },
-      thumbnailUrl: {
+      imageUrl: {
         type: Sequelize.STRING,
       },
       categoryId: {
