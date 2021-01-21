@@ -1,4 +1,5 @@
 const express = require("express");
+const { PORT } = require("./config/constants");
 const cors = require("cors");
 
 const app = express();
@@ -6,5 +7,5 @@ const app = express();
 app.use(cors());
 
 app.listen(PORT, () => {
-    console.log(`Listening on Port:`, PORT);
-  });
+  console.log(`Listening on Port:`, PORT);
+});
