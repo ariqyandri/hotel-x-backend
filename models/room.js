@@ -10,6 +10,10 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       room.belongsTo(models.category);
       room.hasMany(models.picture);
+      room.belongsToMany(models.reservation, {
+        through: "reservedRooms",
+        foreignKey: "roomId",
+      });
     }
   }
   room.init(
