@@ -9,7 +9,6 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       contact.belongsTo(models.category);
-      contact.hasMany(models.picture);
     }
   }
   contact.init(
