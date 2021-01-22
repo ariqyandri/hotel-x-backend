@@ -6,13 +6,13 @@ module.exports = {
       "attractions",
       [
         {
-          name: "Stedelijk Museum Amsterdam",
+          name: "Stedelijk Museum",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. Vestibulum aliquet mauris nisi, vel tincidunt leo tempus a. Quisque ultrices vitae tellus ac dignissim. Donec a odio ornare, blandit metus ut, fringilla eros. ",
           address: "Museumplein 10, 1071 DJ Amsterdam",
           linkUrl: "https://www.stedelijk.nl/",
           imageUrl:
-            "https://media-exp1.licdn.com/dms/image/C4D1BAQHWnREIm3dmyA/company-background_10000/0/1557417206664?e=1611298800&v=beta&t=9w7FI9GHgS-rjSYfAB6sKWO_9QlBEpRYT97fA0cY3p4",
+            "https://res.cloudinary.com/doai9yryh/image/upload/v1611319893/1557417206664_bscx9w.jpg",
           categoryId: 4,
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -24,7 +24,7 @@ module.exports = {
           address: "Museumstraat 1, 1071 XX Amsterdam",
           linkUrl: "https://www.rijksmuseum.nl/",
           imageUrl:
-            "http://petrahulst.com/wp-content/uploads/2016/09/Rijksmuseum-nacht-009.jpg",
+            "https://res.cloudinary.com/doai9yryh/image/upload/v1611319953/Rijksmuseum-nacht-009_hocczt.jpg",
           categoryId: 4,
           createdAt: new Date(),
           updatedAt: new Date(),

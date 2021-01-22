@@ -52,7 +52,8 @@ module.exports = {
           isPublic: true,
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
-          imageUrl: "",
+          imageUrl:
+            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/platform-3.jpg",
           categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -65,7 +66,8 @@ module.exports = {
           isPublic: true,
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
-          imageUrl: "",
+          imageUrl:
+            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/Lloyd-Hotel-Amenities-1.jpg",
           categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -78,7 +80,8 @@ module.exports = {
           isPublic: true,
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
-          imageUrl: "",
+          imageUrl:
+            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/Lloyd-Hotel-Web-Use-Ashkan-Mortezapour-Photography-95-of-102-1500x1000.jpg",
           categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),

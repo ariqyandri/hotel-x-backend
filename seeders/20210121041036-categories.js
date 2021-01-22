@@ -11,7 +11,7 @@ module.exports = {
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed.",
           imageUrl:
-            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/1-star-411-1030x678.jpg",
+            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/Lloyd-Hotel-607.jpg",
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -21,7 +21,7 @@ module.exports = {
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. ",
           imageUrl:
-            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/Lloyd-Hotel-607.jpg",
+            "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/20190404-Lloyd-Hotel-203-doorkijk.jpg",
           createdAt: new Date(),
           updatedAt: new Date(),
         },

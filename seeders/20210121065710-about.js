@@ -6,7 +6,7 @@ module.exports = {
       "abouts",
       [
         {
-          name: "Hotel X",
+          name: "Hotel X Amsterdam",
           slogan: "Quality X Comfort X Value",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc purus sem, porttitor eget augue eget, lacinia mollis nisl. Donec fermentum dui enim, in efficitur elit consequat sed. Vestibulum aliquet mauris nisi, vel tincidunt leo tempus a. Quisque ultrices vitae tellus ac dignissim. Donec a odio ornare, blandit metus ut, fringilla eros. Maecenas mollis sit amet odio at laoreet. Duis at ornare metus, vel laoreet metus. Phasellus varius justo in neque facilisis ultrices. Etiam quis erat sodales nisi consequat sollicitudin nec rhoncus urna.\n Nunc iaculis pulvinar mi, at dignissim turpis fermentum nec. Aenean et lectus risus. Quisque vel nunc efficitur, luctus felis a, rutrum mauris. Duis sed sem ipsum. Donec commodo augue id sapien finibus, in tempus leo gravida. Aenean congue magna id auctor rhoncus. Fusce volutpat placerat nisi, efficitur lacinia diam vehicula id. Suspendisse eget porta augue, eget ornare nisi.",
