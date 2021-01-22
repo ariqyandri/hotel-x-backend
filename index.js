@@ -4,6 +4,8 @@ const cors = require("cors");
 const corsMiddleWare = require("cors");
 const bodyParserMiddleWare = express.json();
 const categoriesRouter = require("./routers/categories");
+const attractionsRouter = require("./routers/attractions");
+const facilitiesRouter = require("./routers/facilities");
 
 const app = express();
 
@@ -14,6 +16,10 @@ app.use(bodyParserMiddleWare);
 app.use(corsMiddleWare());
 
 app.use("/categories", categoriesRouter);
+
+app.use("/attractions", attractionsRouter);
+
+app.use("/facilities", facilitiesRouter);
 
 app.listen(PORT, () => {
   console.log(`Listening on Port:`, PORT);
