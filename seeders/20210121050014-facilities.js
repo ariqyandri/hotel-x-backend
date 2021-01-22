@@ -14,7 +14,7 @@ module.exports = {
           iconUrl: "",
           imageUrl:
             "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/coronaopstelling-restaurant-1030x687.jpg",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -27,7 +27,7 @@ module.exports = {
           iconUrl: "",
           imageUrl:
             "https://images.unsplash.com/photo-1434569842867-4d6d1d4d1ef0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -40,7 +40,7 @@ module.exports = {
           iconUrl: "",
           imageUrl:
             "https://images.unsplash.com/photo-1455641374154-422f32e234cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -53,7 +53,7 @@ module.exports = {
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
           imageUrl: "",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -66,7 +66,7 @@ module.exports = {
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
           imageUrl: "",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -79,7 +79,7 @@ module.exports = {
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
           imageUrl: "",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -91,7 +91,7 @@ module.exports = {
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
           imageUrl: "",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -103,7 +103,7 @@ module.exports = {
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
           imageUrl: "",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -115,7 +115,7 @@ module.exports = {
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
           imageUrl: "",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -127,7 +127,7 @@ module.exports = {
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
           imageUrl: "",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -139,7 +139,7 @@ module.exports = {
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
           imageUrl: "",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -151,7 +151,7 @@ module.exports = {
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
           imageUrl: "",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -163,7 +163,7 @@ module.exports = {
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
           imageUrl: "",
-          categoryId: 2,
+          categoryId: 3,
           createdAt: new Date(),
           updatedAt: new Date(),
         },

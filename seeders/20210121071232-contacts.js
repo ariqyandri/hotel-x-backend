@@ -13,7 +13,7 @@ module.exports = {
           linkUrl: "",
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
-          categoryId: 5,
+          categoryId: 6,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -25,7 +25,7 @@ module.exports = {
           linkUrl: "",
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
-          categoryId: 5,
+          categoryId: 6,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -37,7 +37,7 @@ module.exports = {
           linkUrl: "https://www.facebook.com/",
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
-          categoryId: 5,
+          categoryId: 6,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -49,7 +49,7 @@ module.exports = {
           linkUrl: "https://www.instagram.com/",
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
-          categoryId: 5,
+          categoryId: 6,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -61,7 +61,7 @@ module.exports = {
           linkUrl: "https://www.linkedin.com/",
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
-          categoryId: 5,
+          categoryId: 6,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -73,7 +73,7 @@ module.exports = {
           linkUrl: "https://www.twitter.com/",
           iconUrl:
             "https://res.cloudinary.com/doai9yryh/image/upload/c_scale,h_100,w_100/v1611207340/PngItem_111579_bwd4qg.png",
-          categoryId: 5,
+          categoryId: 6,
           createdAt: new Date(),
           updatedAt: new Date(),
         },

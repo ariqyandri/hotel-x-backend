@@ -15,7 +15,7 @@ module.exports = {
           email: "info@hotelx.com",
           imageUrl:
             "https://43ohug129f2628aqz21xoo1v-wpengine.netdna-ssl.com/wp-content/uploads/Lloyd-Hotel-Exterior-1-1030x687.jpg",
-          categoryId: 4,
+          categoryId: 5,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
