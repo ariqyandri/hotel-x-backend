@@ -12,6 +12,6 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "postgres://cefqdylj:gX-kl5guL27MvjEul3_0GUd0MaoufyUn@hattie.db.elephantsql.com:5432/cefqdylj"
+    "url": "postgres://cefqdylj:gX-kl5guL27MvjEul3_0GUd0MaoufyUn@hattie.db.elephantsql.com:5432/cefqdylj"
   }
 }
